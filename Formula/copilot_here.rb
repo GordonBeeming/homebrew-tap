@@ -9,21 +9,21 @@ class CopilotHere < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-b980fba/copilot_here-osx-arm64.tar.gz"
-      sha256 "f0aef4a928674c16185a4ce78e1f7af7287e6f7bc2da7cdf212e0749b8fe6e91"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-48ec99d/copilot_here-osx-arm64.tar.gz"
+      sha256 "1a4651f01f2f56ea207df8fe73f6a4ada47136663a65376c11f9a07134712cf0"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-b980fba/copilot_here-osx-x64.tar.gz"
-      sha256 "9f6ad5ff42521591ba7ff17de34d176fd560f03cd1f26e68610f1e943a1c2f4f"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-48ec99d/copilot_here-osx-x64.tar.gz"
+      sha256 "4656b5c47c44a7c5f9cf4f06bf97e05c6de5fa1eceaaf4622915e878e4aa7051"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-b980fba/copilot_here-linux-arm64.tar.gz"
-      sha256 "c8ae2ec19279edd954db9dc3c5adcc64784db58f171c43b42a08501e92d9e02e"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-48ec99d/copilot_here-linux-arm64.tar.gz"
+      sha256 "1ca459353c7e1e591fa40de42d52dfba09d0f4d617f22ec0e3f39eb2f7de0aab"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-b980fba/copilot_here-linux-x64.tar.gz"
-      sha256 "059603a012b98894e2cde109b9e0dc49d21f166ba9f580cba02dd2f2ef1b7c8a"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-48ec99d/copilot_here-linux-x64.tar.gz"
+      sha256 "17a6e1a53beb1a71517f56b3b359d4e9af83bcf8f961c337ab4bb49f09f944ed"
     end
   end
 
