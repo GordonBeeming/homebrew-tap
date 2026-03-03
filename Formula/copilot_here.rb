@@ -5,7 +5,7 @@ class CopilotHere < Formula
   desc "Run GitHub Copilot CLI in a sandboxed Docker container"
   homepage "https://github.com/GordonBeeming/copilot_here"
   version "VERSION_PLACEHOLDER"
-  license "MIT"
+  license "FSL-1.1-MIT"
 
   on_macos do
     if Hardware::CPU.arm?
