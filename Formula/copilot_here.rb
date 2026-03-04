@@ -9,21 +9,21 @@ class CopilotHere < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-93b63c6/copilot_here-osx-arm64.tar.gz"
-      sha256 "15b1a3dac74d66e65db705aa5f8d7010ea8cd005ad779be11ff4d244f5cbec6d"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-9ee3e18/copilot_here-osx-arm64.tar.gz"
+      sha256 "d12810321818cbf07be2e1b062601384f2974b733530bc1b24fe697f9a4102c6"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-93b63c6/copilot_here-osx-x64.tar.gz"
-      sha256 "5c769da734de2bc49a6ca465e48bf34658bbba398698f82d1613aeefd963ed79"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-9ee3e18/copilot_here-osx-x64.tar.gz"
+      sha256 "31f27cadd53c8ddbe33626250abc82e97770389ba181ca365bf9fd3c0235a78d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-93b63c6/copilot_here-linux-arm64.tar.gz"
-      sha256 "825b26895fcc8bd1e90fc8946753808a53ab55ef9c50c0949fe58ac0c334df47"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-9ee3e18/copilot_here-linux-arm64.tar.gz"
+      sha256 "72dc33720b810fc7501d1e75c36be12cca1a3437cdffb1d6daa1e50a0576a98b"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-93b63c6/copilot_here-linux-x64.tar.gz"
-      sha256 "271e908efdb72ccc5b2b911c0e2dd810e1a9d6280ab79bc5572009cd31f48bb2"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.02.19-9ee3e18/copilot_here-linux-x64.tar.gz"
+      sha256 "dfe1d37a1d70ae9805b4604d0f196919682ea26ccf28b1025eb61fe2515a8c6c"
     end
   end
 
@@ -33,7 +33,7 @@ class CopilotHere < Formula
 
   def caveats
     <<~EOS
-      copilot_here requires Docker to be installed and running.
+      copilot_here requires Docker, Podman, or OrbStack to be installed and running.
 
       To enable the shell function wrapper, run:
         copilot_here --install-shells
