@@ -4,26 +4,26 @@
 class ClaudeRecall < Formula
   desc "AI-powered TUI to search Claude Code session history"
   homepage "https://github.com/GordonBeeming/claude-recall"
-  version "0.1.0.2"
+  version "0.1.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-osx-arm64.tar.gz"
-      sha256 "83bd186c75e55ed7e8659ca90049f88f900eef4b0350e16dbc08df8425d86129"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.3-1c595ed-a1/claude-recall-osx-arm64.tar.gz"
+      sha256 "163f914634b506d04c7cf9bb0d573dc1f9ae76e0220a5eb94d6e57beaaa4f373"
     else
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-osx-x64.tar.gz"
-      sha256 "7a424bfdc8a4c4b057887e3584c2f308b57acbfae7f760f61884e91b5ec2622d"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.3-1c595ed-a1/claude-recall-osx-x64.tar.gz"
+      sha256 "ac5735b6cad77f635adb44ecb6c0f6ae19fcdc4d1057d96b32e8757ac496050a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-linux-arm64.tar.gz"
-      sha256 "f56911d2d08e7ec097c55bcdc1c11dcd2416570801995e109d692f3aad4660e3"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.3-1c595ed-a1/claude-recall-linux-arm64.tar.gz"
+      sha256 "6ba5158fb28cc50b04291f9ae8fd9f3d0226209ed3a8e81b77462d375fb209be"
     else
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-linux-x64.tar.gz"
-      sha256 "7510c13978a345c3815c5d8f5e01572c11737638b4be226a4fdd61b04b5c2d22"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.3-1c595ed-a1/claude-recall-linux-x64.tar.gz"
+      sha256 "bdc24d2845b53b916b5593ecf102c6f7cc189caec0c39eedb0f57258752dbcb3"
     end
   end
 
