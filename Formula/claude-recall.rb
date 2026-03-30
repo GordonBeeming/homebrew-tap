@@ -4,26 +4,26 @@
 class ClaudeRecall < Formula
   desc "AI-powered TUI to search Claude Code session history"
   homepage "https://github.com/GordonBeeming/claude-recall"
-  version "0.1.0.1"
+  version "0.1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.1-cc7ddfb/claude-recall-osx-arm64.tar.gz"
-      sha256 "8c4d142ebd61c92a9902168dab804ec63e179fe73fc04850edce032258448f40"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-osx-arm64.tar.gz"
+      sha256 "83bd186c75e55ed7e8659ca90049f88f900eef4b0350e16dbc08df8425d86129"
     else
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.1-cc7ddfb/claude-recall-osx-x64.tar.gz"
-      sha256 "a7892b22c08ca20890a209f6b8a16f3e6674dde88719ca20e907e40f43c5796b"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-osx-x64.tar.gz"
+      sha256 "7a424bfdc8a4c4b057887e3584c2f308b57acbfae7f760f61884e91b5ec2622d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.1-cc7ddfb/claude-recall-linux-arm64.tar.gz"
-      sha256 "65ae6952e92b99f0e32c485cfee6fab78d3566d80429438de35b3d3a5ceaf38b"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-linux-arm64.tar.gz"
+      sha256 "f56911d2d08e7ec097c55bcdc1c11dcd2416570801995e109d692f3aad4660e3"
     else
-      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.1-cc7ddfb/claude-recall-linux-x64.tar.gz"
-      sha256 "3c49446c35064bd74e8f6af8b1cde8d40b0543dd06dc933fd6fc9d182732d1aa"
+      url "https://github.com/GordonBeeming/claude-recall/releases/download/v0.1.0.2-0c13d23-a1/claude-recall-linux-x64.tar.gz"
+      sha256 "7510c13978a345c3815c5d8f5e01572c11737638b4be226a4fdd61b04b5c2d22"
     end
   end
 
