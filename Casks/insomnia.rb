@@ -1,6 +1,6 @@
 cask "insomnia" do
-  version "0.4"
-  sha256 "c1112c14b5083434a074b30eadedac83fcea4da92f82484daa1b9dd996150dae"
+  version "0.5"
+  sha256 "e7b7b1ae834fc91cee47e350f475b7d39d5193e58e0c37b4847bed35d6e5a978"
 
   url "https://github.com/gordonbeeming/insomnia/releases/download/v#{version}/Insomnia-#{version}.dmg"
   name "Insomnia"
@@ -10,6 +10,7 @@ cask "insomnia" do
   depends_on macos: ">= :sonoma"
 
   app "Insomnia.app"
+  binary "#{appdir}/Insomnia.app/Contents/MacOS/insomnia-cli", target: "insomnia"
 
   zap trash: [
     "~/Library/Application Support/Insomnia",
