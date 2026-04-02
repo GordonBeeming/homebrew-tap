@@ -1,6 +1,6 @@
 cask "insomnia" do
-  version "0.5"
-  sha256 "e7b7b1ae834fc91cee47e350f475b7d39d5193e58e0c37b4847bed35d6e5a978"
+  version "0.6"
+  sha256 "ee81079bd16af299d78978817761cf78bb2baed13046cab4ac630f8e2bd0567c"
 
   url "https://github.com/gordonbeeming/insomnia/releases/download/v#{version}/Insomnia-#{version}.dmg"
   name "Insomnia"
