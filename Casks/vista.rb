@@ -1,6 +1,6 @@
 cask "vista" do
-  version "0.3"
-  sha256 "ec4566105673d1d9d67f2d962b78cbde2ab8b182f484d079aa44e9d6044d8634"
+  version "0.4"
+  sha256 "7606d2fb98df9517f23199852b62dabae589595c0c474cbb3967206e84b59d19"
 
   url "https://github.com/gordonbeeming/vista/releases/download/v#{version}/Vista-#{version}.dmg"
   name "Vista"
