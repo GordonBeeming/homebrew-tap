@@ -7,7 +7,7 @@ cask "ssmsx" do
   desc "Fast cross-platform SQL Server Management Studio replacement"
   homepage "https://github.com/gordonbeeming/ssmsx"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SSMSx.app"
 
