@@ -2,16 +2,16 @@
 # frozen_string_literal: true
 
 cask "copilot-here" do
-  version "2026.06.29.2"
+  version "2026.06.29.3"
 
   on_arm do
-    url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.06.29.2-076d00a/copilot_here-osx-arm64.tar.gz"
-    sha256 "80227167d2010c1d997a8564c440acc8f2448be8127534d67fbe1f7580694666"
+    url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.06.29.3-d59cd5e/copilot_here-osx-arm64.tar.gz"
+    sha256 "1c3eb9bb7ed638d49502a6977bc5a94825edf243034a78c9f267df0b77a2d902"
   end
 
   on_intel do
-    url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.06.29.2-076d00a/copilot_here-osx-x64.tar.gz"
-    sha256 "a788fb4911b5b2891752ec5a18586f264e6ab4709d1f268cda3cecb00504b1ac"
+    url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.06.29.3-d59cd5e/copilot_here-osx-x64.tar.gz"
+    sha256 "bd79b95fd6222f06fc80091a98da794440210e8e42ed25c2e32c79ad74626773"
   end
 
   name "copilot_here"
