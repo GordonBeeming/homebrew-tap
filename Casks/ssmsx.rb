@@ -1,8 +1,8 @@
 cask "ssmsx" do
-  version "0.1-beta.5"
-  sha256 "132b5e26b75f935168027cefd7f080ba5d35575cc3e04b7b17a46bfcab270f39"
+  version "0.1-beta.6"
+  sha256 "91f9b59ac8d81d61d8f31ed00ba53196aa76a78835e39b9a2333a039f329fd3b"
 
-  url "https://github.com/gordonbeeming/ssmsx/releases/download/v0.1-beta.5/ssmsx-0.1-beta.5-aarch64.dmg"
+  url "https://github.com/gordonbeeming/ssmsx/releases/download/v0.1-beta.6/ssmsx-0.1-beta.6-aarch64.dmg"
   name "SSMSx"
   desc "Fast cross-platform SQL Server Management Studio replacement"
   homepage "https://github.com/gordonbeeming/ssmsx"
