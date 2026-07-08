@@ -1,13 +1,13 @@
 cask "ide" do
-  version "0.4"
-  sha256 "3f84b4584397bdf04fbc6246ace5d14a69006ce9dc24595bbfbb0cfc185923ee"
+  version "0.5"
+  sha256 "22310885dc26c5d333e49c1ff4cc6585e22354d9abe399f96325ec29b82abf07"
 
   url "https://github.com/gordonbeeming/ide/releases/download/v#{version.major_minor}/ide-#{version.major_minor}-aarch64.dmg"
   name "ide"
   desc "Lean local IDE"
   homepage "https://github.com/gordonbeeming/ide"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ide.app"
 
