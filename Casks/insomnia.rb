@@ -7,7 +7,7 @@ cask "insomnia" do
   desc "Caffeinate utility — the tool that never sleeps"
   homepage "https://github.com/gordonbeeming/insomnia"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Insomnia.app"
   binary "#{appdir}/Insomnia.app/Contents/MacOS/insomnia-cli", target: "insomnia"
