@@ -1,6 +1,6 @@
 cask "ide" do
-  version "0.5"
-  sha256 "22310885dc26c5d333e49c1ff4cc6585e22354d9abe399f96325ec29b82abf07"
+  version "0.6"
+  sha256 "466ee98bc4771579c9fd82380c33a81a147096c010459b2e58427e5c9998be33"
 
   url "https://github.com/gordonbeeming/ide/releases/download/v#{version.major_minor}/ide-#{version.major_minor}-aarch64.dmg"
   name "ide"
