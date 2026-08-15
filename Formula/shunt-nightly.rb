@@ -5,9 +5,9 @@
 class ShuntNightly < Formula
   desc "Run parallel app experiments in isolated Apple container guests"
   homepage "https://github.com/GordonBeeming/shunt"
-  url "https://github.com/GordonBeeming/shunt/releases/download/nightly-13/shunt-nightly_darwin_arm64.tar.gz"
-  version "0.0.0-nightly.13"
-  sha256 "e81a6f742fb9956b54f9b8abaf0bf5d2f3e990d48882bd4891f08f39b15d0be0"
+  url "https://github.com/GordonBeeming/shunt/releases/download/nightly-14/shunt-nightly_darwin_arm64.tar.gz"
+  version "0.0.0-nightly.14"
+  sha256 "2666f38291963cf813462432c70eaa6c702c3e79b9e6a1f4c890c7022369eb4c"
   license "FSL-1.1-MIT"
 
   depends_on arch: :arm64
