@@ -1,6 +1,6 @@
 cask "pokedex-scanner" do
-  version "0.1"
-  sha256 "9e3ddaeeba03cf9962fa0dd8bec69d1ccb8f403b996362c4695f8a165a05b7ec"
+  version "0.2"
+  sha256 "9ac5bd25b58cbe6459bc64e64128b2d6306a8524a2e0343dfd52459b4973c1d6"
 
   url "https://github.com/GordonBeeming/pokemon/releases/download/v#{version}/pokedex-scanner-#{version}-aarch64.dmg"
   name "Pokédex Scanner"
@@ -9,6 +9,14 @@ cask "pokedex-scanner" do
 
   depends_on macos: :ventura
   app "Pokédex Scanner.app"
+
+  postflight do
+    if File.executable?("/usr/bin/gktool")
+      system_command "/usr/bin/gktool",
+                     args:         ["scan", "#{appdir}/Pokédex Scanner.app"],
+                     must_succeed: true
+    end
+  end
 
   zap trash: [
     "~/Library/Application Support/com.gordonbeeming.pokedex.scanner",
