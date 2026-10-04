@@ -4,26 +4,26 @@
 class CopilotHere < Formula
   desc "Run GitHub Copilot CLI in a sandboxed Docker container"
   homepage "https://github.com/GordonBeeming/copilot_here"
-  version "2026.08.13.1"
+  version "2026.10.04.1"
   license "FSL-1.1-MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.08.13.1-523b95e/copilot_here-osx-arm64.tar.gz"
-      sha256 "d00848b2628bfc357f2a718cb5162be4e40ba9f074c0a90c95f47e1360fda826"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.10.04.1-b65db7e/copilot_here-osx-arm64.tar.gz"
+      sha256 "bd98b1172d459d9233733b00eb9fa490494714641d98d8b450db0ea14e6a34bf"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.08.13.1-523b95e/copilot_here-osx-x64.tar.gz"
-      sha256 "765439429584c15fc6e348333d6f486b74e4665bdfee5e3bdb997d7f5aff0d30"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.10.04.1-b65db7e/copilot_here-osx-x64.tar.gz"
+      sha256 "afba09c9c6ae1f4ecf6b5c350b0c390cd9103dfae011f6c89fb38f349f40d3b4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.08.13.1-523b95e/copilot_here-linux-arm64.tar.gz"
-      sha256 "fc1dacdf018a6a759a74ff17ae599196dfd13f446f9f089625becb4594e1b181"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.10.04.1-b65db7e/copilot_here-linux-arm64.tar.gz"
+      sha256 "25cb3a4a729d668b7c352fe553d8eff420486cb302ef4137bf9e0995db775952"
     else
-      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.08.13.1-523b95e/copilot_here-linux-x64.tar.gz"
-      sha256 "7328e6dc1e8eae0c83d39435b5095e9877157aa9aa2f427360233c10888cc9a7"
+      url "https://github.com/GordonBeeming/copilot_here/releases/download/cli-v2026.10.04.1-b65db7e/copilot_here-linux-x64.tar.gz"
+      sha256 "a8408e8c5c5e80bce56b4d2ac3e4dcb3f9c815ea18754a502e75b541ec467155"
     end
   end
 
