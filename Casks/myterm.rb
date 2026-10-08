@@ -1,6 +1,6 @@
 cask "myterm" do
-  version "0.50"
-  sha256 "7d8cc2c47428fe0a88732118cc0813acc108c6db12120dd933f2cc37d1ac4362"
+  version "0.51"
+  sha256 "4530bfb2383dd17781ee57f3029c112ff27c8e12a2dc7bf457f3e61058a4f008"
 
   url "https://github.com/GordonBeeming/myterm/releases/download/v#{version}/myterm-#{version}-aarch64.dmg"
   name "MyTerm"
