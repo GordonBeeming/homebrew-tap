@@ -1,6 +1,6 @@
 cask "codex-bar" do
-  version "0.6"
-  sha256 "39ee128e54cdd179cab44856863ccc395bebb9fd4b011aa0c0ca7436719cd474"
+  version "0.7"
+  sha256 "305c6955e997686c6aaf8c87b24abacc868d7611d7b43fd70400d2f5bb75d45c"
 
   url "https://github.com/gordonbeeming/codex-bar/releases/download/v#{version}/CodexBar-#{version}.dmg"
   name "CodexBar"
