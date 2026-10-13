@@ -1,6 +1,6 @@
 cask "claude-bar" do
-  version "0.8"
-  sha256 "99e0107c9b18f9dd79772fb7eeaab70a7f1ebf5baf28e642358f3600aa98a66e"
+  version "0.9"
+  sha256 "c351a795155bc14a62c58b1aff0ecf0422ab8f839172f789dc1d54b8cfb9a553"
 
   url "https://github.com/gordonbeeming/claude-bar/releases/download/v#{version}/ClaudeBar-#{version}.dmg"
   name "ClaudeBar"
