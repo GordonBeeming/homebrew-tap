@@ -1,6 +1,6 @@
 cask "bar-ui" do
-  version "0.7"
-  sha256 "18d6258620f261f41c8d61a32d632aa295582260e4d43149ec10de92053b250f"
+  version "0.8"
+  sha256 "dc3cb78511847d631cd02330ed68a81d09a5f9b1dcb4dd0e079b36abf034a8d0"
 
   url "https://github.com/gordonbeeming/bar-ui/releases/download/v#{version}/BarUI-#{version}.dmg"
   name "Bar UI"
