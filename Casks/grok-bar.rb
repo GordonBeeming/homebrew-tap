@@ -1,6 +1,6 @@
 cask "grok-bar" do
-  version "0.1"
-  sha256 "129ef07e0dd2f571d81b451365b9033d7c57eb2c5f2cdc315c95e6e89fdfee40"
+  version "0.2"
+  sha256 "590697ffd2c96f14b22d694bb2826df5f68ba0449d08dc0c04de4b8af2b9aa05"
 
   url "https://github.com/gordonbeeming/grok-bar/releases/download/v#{version}/GrokBar-#{version}.dmg"
   name "GrokBar"
