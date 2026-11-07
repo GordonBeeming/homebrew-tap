@@ -4,9 +4,9 @@
 class Sprig < Formula
   desc "Fast, space-efficient Git worktrees using copy-on-write"
   homepage "https://github.com/GordonBeeming/sprig"
-  url "https://github.com/GordonBeeming/sprig/releases/download/v0.1.5/sprig-0.1.5-aarch64-apple-darwin.tar.gz"
-  version "0.1.5"
-  sha256 "0c25babe8408bd3e136fa90be1312f8ad94b37df2a4dc6210e9dd68c3bbb8a5c"
+  url "https://github.com/GordonBeeming/sprig/releases/download/v0.2.0/sprig-0.2.0-aarch64-apple-darwin.tar.gz"
+  version "0.2.0"
+  sha256 "a65811ed0534640645ededc607734616df0b9406a0334605be5eff0a7e7dd495"
   # Functional Source License 1.1 with MIT future licence.
   license :cannot_represent
 
@@ -28,7 +28,7 @@ class Sprig < Formula
   end
 
   test do
-    assert_match "sprig 0.1.5", shell_output("#{bin}/sprig --version")
+    assert_match "sprig 0.2.0", shell_output("#{bin}/sprig --version")
     assert_match '"schema_version":1', shell_output("#{bin}/sprig capabilities --json")
   end
 end
