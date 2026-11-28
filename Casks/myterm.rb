@@ -1,6 +1,6 @@
 cask "myterm" do
-  version "0.73"
-  sha256 "953895e8532628c5ffbf3c23c5471d8b46fe47c49ecc6ceaa50c72544494caf5"
+  version "0.74"
+  sha256 "f5c8a6c1ab952e30cc5006d3fdfef76f868e909aced59eca199d25c42e2e1892"
 
   url "https://github.com/GordonBeeming/myterm/releases/download/v#{version}/myterm-#{version}-aarch64.dmg"
   name "MyTerm"
@@ -12,9 +12,9 @@ cask "myterm" do
 
   app "myterm.app"
 
-  zap trash: [
-    "~/Library/Application Support/myterm",
-    "~/Library/Preferences/com.gordonbeeming.myterm.plist",
-    "~/Library/WebKit/com.gordonbeeming.myterm",
-  ]
+  caveats do
+    <<~EOS
+      Uninstalling the app keeps your MyTerm configuration and local server data.
+    EOS
+  end
 end
